@@ -1,0 +1,38 @@
+{
+  "name": "ts-geojson",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --verbose"
+  },
+  "repository": "https://gitee.com/ts_gis/ts-geojson.git",
+  "author": "tracy",
+  "license": "Apache 2.0",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.1",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5",
+    "@types/jest": "^27.0.1",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4"
+  },
+  "jest": {
+    "rootDir": "tests",
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
